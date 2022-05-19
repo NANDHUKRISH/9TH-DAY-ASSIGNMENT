@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="7.css">
+    <style>
+
+.subscribe{
+    max-width:600px;
+    border:5px solid black;
+    padding: 10px;
+}
+.session1{
+  display:flex;
+ 
+}
+.session2{
+    display:flex;
+}
+.session3{
+    font-weight: 1000;
+    font-size:18px;
+}
+.session4{
+    font-weight: 1000;
+    font-size:18px;
+}
+body{
+    height: 700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+ }
+ #overview{
+    max-width:620px;
+    border:2px solid black;
+    padding: 10px;
+    background-color:white;
+ }
+    </style>
+</head>
+<body>
+    <div id="overview">
+
+        <div class="subscribe">
+        <h2 style="background:red;text-align:center; max-width:570px;margin-top: 2px;margin-bottom:2px;padding-left: 20px;padding-right: 20px;color: white;">YES! I WANT TO SUBSCRIBE TO MAG-O-ZINE</h2>
+        <div  class="session1">
+        <div style="width:300px;">
+       <input style="border:none; border-bottom:3px solid black;text-align:center;width:260px;" type="text" id="firstname" value="NANDHU"><BR>
+        <label style="width:300px;" for="firstname">First Name</label>
+        </div>
+        <div style="width:300px;">
+        <input style="border:none; border-bottom:3px solid black;text-align:center;width:280px;" type="text" id="lastname" value="KRISHNA"><BR>
+        <label style="width:300px;" for="lastname">Last Name</label>
+       </div>
+       </div>
+
+
+       <div>
+        <input style="border:none; border-bottom:3px solid black;text-align:center;width:570px;" type="text" id="address" value="1001 MANDIR STREET , karyavattom p o ,TVPM"><BR>
+            <label style="width:300px;" for="address">Address</label>
+       </div>
+
+       <div  class="session2">
+        <div style="width:200px;">
+       <input style="border:none; border-bottom:3px solid black;text-align:center;width:150px;" type="text" id="City" value="TVM"><BR>
+        <label style="width:200px;" for="City">City</label>
+        </div>
+        <div style="width:200px;">
+        <input style="border:none; border-bottom:3px solid black;text-align:center;width:110px;" type="text" id="State" value="KERALA"><BR>
+        <label style="width:200px;" for="State">State</label>
+       </div>
+       <div style="width:200px;">
+        <input style="border:none; border-bottom:3px solid black;text-align:center;width:150px;" type="text" id="Zip" value="695581"><BR>
+        <label style="width:200px;" for="Zip">Zip</label>
+       </div>
+       </div><br>
+ 
+       <div  class="session3">
+        <label for="subscribe" >Subscribe For:</label>
+        <input type="checkbox" id="subscribe" value="">1 year($19.95)
+        <input type="checkbox" id="subscribe" value="">2 year($35.00)
+        <br><br>
+    </div>
+
+    <div  class="session4">
+        <label for="information" >Send me more information about:</label><br>
+        &nbsp;&nbsp;<input type="checkbox" id="information" value="" style="margin: 3px;" checked>Computer-Zine<br>
+        &nbsp;&nbsp;<input type="checkbox" id="information" value="" style="margin: 3px;">Fishing-zine<br>
+        &nbsp;&nbsp;<input type="checkbox" id="information" value="" style="margin: 3px;" checked>cat-o-zine<br>
+    </div>
+
+</div>
+</div>
+</body>
+</html>
